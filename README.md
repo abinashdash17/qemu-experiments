@@ -4,11 +4,11 @@
 2. edit the seed-iso-custom/user-data
 3. paste the public key in the required line in the user-data file
 4. generate seed.iso using the command : `genisoimage -output seed.iso -volid cidata -joliet -rock seed-iso-custom/`
-5. use virt-manager GUI or virt-install cli to install the qcow2 image
+5. use [virt-manager GUI](#How-to-install-using-virt-manager-GUI) or virt-install cli to install the qcow2 image
 6. check the ip of the running vm using : `virsh net-dhcp-leases default`
-7. login using : `ssh -i ssh_private.key username@ip_address
+7. login using : `ssh -i ssh_private.key username@ip_address`
 
-### how to install using virt manager GUI
+### How to install using virt manager GUI
 1. create a new VM
 2. select the qcow2 image and choose correct operatign system name
 3. specify ram and cpu core
