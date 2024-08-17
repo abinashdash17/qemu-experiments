@@ -43,6 +43,7 @@ the advantage of using arch image is that it has a default username and pass
         1. arch has a qcow2 image which comes with default user and pass arch:arch
     4. [Ubuntu](https://cloud-images.ubuntu.com/releases/24.04/release-20240809/) -
         1. (unrelated) it has ova images too, which can be used directly in Vitualbox.
-
+        2. post installation you might need to fix network issue in /etc/netplan/50-cloud-init-yaml. remove the match, mac address and set name lines. then do `netplan apply`
+            
 ### PS: 
 I did some experiments with qemu. I have added all the steps here so that it might be helpful for others??? nah... it's for my future reference. haha...
