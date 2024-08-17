@@ -23,14 +23,23 @@
 ### how to install using virt-install CLI
 coming soon
 
-## options for qcow2 or server os or cloud init
+### options for qcow2 or server os or cloud init
 arch has a qcow2 image which comes with default user and pass arch:arch
 all other cloud image comes without default username and pass and it must be initialized using cloud-init script or seed.iso
 
 all cloud image user almost similar idle ram.
-in ideal states the free ram would be around 600mb
-the only advantage of using arch image is that it has default username and pass
+in ideal states the free ram would be around 200 to 300mb
+the advantage of using arch image is that it has a default username and pass
 
+### Sources
+1. Sample seed.iso - https://cdn.amazonlinux.com/os-images/2.0.20240809.0/
+2. A great intro to Qemu and CLI example: [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
+3. Cloud init images for some popular linux Os
+  1. [Debian Bookworm](https://cloud.debian.org/images/cloud/bookworm/20240717-1811/)
+  2. [Arch](https://github.com/archlinux/arch-boxes) : I "used" Arch BTW!
+    1. arch has a qcow2 image which comes with default user and pass arch:arch
+  4. [Ubuntu](https://cloud-images.ubuntu.com/releases/24.04/release-20240809/) -
+    1. (unrelated) it has ova images too, which can be used directly in Vitualbox.
 
 #### PS: 
 I did some experiments with qemu. I have added all the steps here so that it might be helpful for others??? nah... it's for my future reference. haha...
