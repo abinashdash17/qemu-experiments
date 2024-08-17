@@ -32,7 +32,7 @@ in ideal states the free ram would be around 200 to 300mb
 the advantage of using arch image is that it has a default username and pass
 
 ### Sources
-1. Sample seed.iso - https://cdn.amazonlinux.com/os-images/2.0.20240809.0/
+1. [Sample seed.iso](https://cdn.amazonlinux.com/os-images/2.0.20240809.0/)
 2. A great intro to Qemu and CLI example: [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
 3. A good tutorial for CLI without using seed.iso: [Qemu CLI setup guide](https://cloudinit.readthedocs.io/en/latest/tutorial/qemu.html)
 4. Cloud init images for some popular linux Os
