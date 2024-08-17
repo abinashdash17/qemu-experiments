@@ -1,0 +1,11 @@
+#cloud-config
+# vim:syntax=yaml
+users:
+  - default
+  - name: abinash
+    groups: sudo
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    shell: /bin/bash
+    ssh-authorized-keys:
+            - paste_ssh_public_key_here
+    lock_passwd: true
